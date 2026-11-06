@@ -1,111 +1,91 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-label="Aditya Mishra - Full-Stack Developer & AI Systems Engineer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240" role="img" aria-label="Aditya Mishra - Full-Stack &amp; AI Systems Engineer">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#070a12"/>
-      <stop offset="50%" stop-color="#0b101d"/>
-      <stop offset="100%" stop-color="#0f1629"/>
+    <!-- Background Gradients -->
+    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
     </linearGradient>
 
-    <!-- Subtle Radial Glow behind tech block -->
-    <radialGradient id="glow" cx="0.8" cy="0.3" r="0.6">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
-    </radialGradient>
-
-    <!-- Technical Grid Pattern -->
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1e293b" stroke-width="0.6" stroke-opacity="0.6"/>
-      <circle cx="0" cy="0" r="1" fill="#334155" fill-opacity="0.8"/>
-    </pattern>
-
-    <!-- Linear Accent Gradient -->
-    <linearGradient id="cyanBlue" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="100%" stop-color="#818cf8"/>
+    <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
     </linearGradient>
 
-    <clipPath id="cardBorder">
-      <rect width="1000" height="240" rx="12"/>
-    </clipPath>
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#30363d"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.4"/>
+    </linearGradient>
   </defs>
 
-  <!-- Container -->
-  <g clip-path="url(#cardBorder)">
-    <rect width="1000" height="240" fill="url(#bgGrad)"/>
-    <rect width="1000" height="240" fill="url(#grid)"/>
-    <rect width="1000" height="240" fill="url(#glow)"/>
+  <!-- Main Background Container -->
+  <rect x="1" y="1" width="998" height="238" rx="12" fill="url(#cardBg)" stroke="url(#borderGrad)" stroke-width="1.5"/>
 
-    <!-- Subtle Architectural Corner Registration Marks -->
-    <path d="M 24 36 L 36 36 M 24 36 L 24 48" stroke="#334155" stroke-width="1.2" fill="none"/>
-    <path d="M 976 36 L 964 36 M 976 36 L 976 48" stroke="#334155" stroke-width="1.2" fill="none"/>
-    <path d="M 24 204 L 36 204 M 24 204 L 24 192" stroke="#334155" stroke-width="1.2" fill="none"/>
-    <path d="M 976 204 L 964 204 M 976 204 L 976 192" stroke="#334155" stroke-width="1.2" fill="none"/>
-
-    <!-- Header status tag -->
-    <g transform="translate(56, 42)">
-      <rect width="210" height="24" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-      <circle cx="12" cy="12" r="3.5" fill="#10b981">
-        <animate attributeName="opacity" values="1;0.4;1" dur="2.4s" repeatCount="indefinite"/>
-      </circle>
-      <text x="24" y="15.5" font-family="'SF Mono', 'Fira Code', 'Roboto Mono', Consolas, monospace" font-size="10.5" font-weight="600" fill="#94a3b8" letter-spacing="1.2">SYSTEMS · AI AGENTS</text>
-    </g>
-
-    <!-- Main Title -->
-    <text x="56" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#ffffff" letter-spacing="-1">
-      Aditya Mishra
-    </text>
-
-    <!-- Subtitle Line -->
-    <text x="56" y="148" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#94a3b8">
-      Building robust full-stack products, autonomous agent pipelines, and application security tooling.
-    </text>
-
-    <!-- Tech specs footer row -->
-    <g transform="translate(56, 186)">
-      <rect width="520" height="26" rx="6" fill="#0b1120" stroke="#1e293b" stroke-width="0.8"/>
-      <text x="14" y="17" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="11" fill="#64748b">
-        <tspan fill="#38bdf8">STACK:</tspan> TypeScript · Python · Fastify · React · LangGraph · Qdrant · Docker
-      </text>
-    </g>
-
-    <!-- Right Side: Clean System Architecture Card -->
-    <g transform="translate(680, 36)">
-      <rect width="264" height="168" rx="10" fill="#080d1a" stroke="#1e293b" stroke-width="1.2"/>
-      <rect width="264" height="28" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-      <rect y="18" width="264" height="10" fill="#0f172a"/>
-
-      <!-- Window / Module title -->
-      <text x="14" y="18" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="10" font-weight="600" fill="#64748b" letter-spacing="0.8">SYSTEM ARCHITECTURE</text>
-
-      <!-- Mini Architecture Flowchart inside card -->
-      <g transform="translate(14, 42)">
-        <!-- Node 1: Ingestion -->
-        <rect x="0" y="0" width="108" height="34" rx="5" fill="#0f172a" stroke="#334155" stroke-width="1"/>
-        <text x="8" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#e2e8f0">Ingestion &amp; AST</text>
-        <text x="8" y="27" font-family="'SF Mono', Consolas, monospace" font-size="8.5" fill="#64748b">Manifest / Parser</text>
-
-        <!-- Arrow 1 -->
-        <path d="M 108 17 L 124 17" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="3,2"/>
-        <polygon points="126,17 122,14 122,20" fill="#38bdf8"/>
-
-        <!-- Node 2: Sandbox -->
-        <rect x="128" y="0" width="108" height="34" rx="5" fill="#0f172a" stroke="#334155" stroke-width="1"/>
-        <text x="136" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10" font-weight="600" fill="#38bdf8">Sandbox VM</text>
-        <text x="136" y="27" font-family="'SF Mono', Consolas, monospace" font-size="8.5" fill="#64748b">Playwright Isolated</text>
-
-        <!-- Downward Connector -->
-        <path d="M 182 34 L 182 52 L 126 52" stroke="#64748b" stroke-width="1.2"/>
-
-        <!-- Node 3: Policy & Score -->
-        <rect x="0" y="58" width="236" height="48" rx="6" fill="#0d1424" stroke="#2563eb" stroke-width="1" stroke-opacity="0.6"/>
-        <circle cx="14" cy="74" r="4" fill="#38bdf8"/>
-        <text x="26" y="77" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#f1f5f9">Weighted Risk Engine</text>
-        <text x="26" y="93" font-family="'SF Mono', Consolas, monospace" font-size="9" fill="#94a3b8">0–100 Multi-Signal Scoring · Threat Rules</text>
-      </g>
-    </g>
+  <!-- Left: Profile Details -->
+  <!-- Status Badge -->
+  <g transform="translate(48, 38)">
+    <rect width="180" height="26" rx="13" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <circle cx="14" cy="13" r="4" fill="#3fb950"/>
+    <text x="26" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#7ee787" letter-spacing="0.5">SWE &amp; AI SYSTEMS</text>
   </g>
 
-  <!-- Outer Fine Border -->
-  <rect x="0.5" y="0.5" width="999" height="239" rx="12" fill="none" stroke="#1e293b" stroke-width="1"/>
+  <!-- Name -->
+  <text x="48" y="108" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="url(#textGrad)" letter-spacing="-0.5">
+    Aditya Mishra
+  </text>
+
+  <!-- Tagline -->
+  <text x="48" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#8b949e">
+    Full-Stack Developer · Autonomous AI Agents · App Security
+  </text>
+
+  <!-- Metadata Tags -->
+  <g transform="translate(48, 172)">
+    <!-- Location Pill -->
+    <rect x="0" y="0" width="135" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <text x="12" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#c9d1d9">📍 Greater Noida, IN</text>
+
+    <!-- Education Pill -->
+    <rect x="145" y="0" width="170" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <text x="157" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#c9d1d9">🎓 B.Tech IT @ GBU</text>
+  </g>
+
+  <!-- Right: Architecture Pipeline Visual -->
+  <g transform="translate(620, 32)">
+    <!-- Container Box -->
+    <rect width="332" height="176" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+    <!-- Header bar -->
+    <path d="M 0 10 C 0 4.5 4.5 0 10 0 L 322 0 C 327.5 0 332 4.5 332 10 L 332 30 L 0 30 Z" fill="#161b22"/>
+    <line x1="0" y1="30" x2="332" y2="30" stroke="#30363d" stroke-width="1"/>
+    <circle cx="16" cy="15" r="3.5" fill="#f85149"/>
+    <circle cx="30" cy="15" r="3.5" fill="#e3b341"/>
+    <circle cx="44" cy="15" r="3.5" fill="#3fb950"/>
+    <text x="64" y="19" font-family="'SF Mono', Consolas, monospace" font-size="10.5" font-weight="600" fill="#8b949e">PIPELINE ARCHITECTURE</text>
+
+    <!-- Stage 1: Ingestion -->
+    <g transform="translate(16, 46)">
+      <rect width="138" height="48" rx="6" fill="#161b22" stroke="#38bdf8" stroke-width="1"/>
+      <text x="12" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#ffffff">1. Static AST Audit</text>
+      <text x="12" y="36" font-family="'SF Mono', Consolas, monospace" font-size="9" fill="#8b949e">Manifest &amp; Syntax</text>
+    </g>
+
+    <!-- Arrow 1 to 2 -->
+    <path d="M 158 70 L 174 70" stroke="#58a6ff" stroke-width="2"/>
+    <polygon points="178,70 172,66 172,74" fill="#58a6ff"/>
+
+    <!-- Stage 2: Sandbox -->
+    <g transform="translate(178, 46)">
+      <rect width="138" height="48" rx="6" fill="#161b22" stroke="#a371f7" stroke-width="1"/>
+      <text x="12" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#ffffff">2. Sandbox VM</text>
+      <text x="12" y="36" font-family="'SF Mono', Consolas, monospace" font-size="9" fill="#8b949e">Playwright Isolated</text>
+    </g>
+
+    <!-- Stage 3: Risk Engine -->
+    <g transform="translate(16, 110)">
+      <rect width="300" height="48" rx="6" fill="#161b22" stroke="#3fb950" stroke-width="1"/>
+      <text x="14" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#7ee787">3. Multi-Signal Scoring Engine</text>
+      <text x="14" y="36" font-family="'SF Mono', Consolas, monospace" font-size="9.5" fill="#c9d1d9">Weighted 0–100 Threat Index · Rules &amp; LLM Review</text>
+    </g>
+  </g>
 </svg>
