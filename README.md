@@ -1,16 +1,16 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/adimishra-code/adimishra-code/main/assets/banner.svg" alt="Aditya Mishra - Full-Stack Developer & AI Systems Engineer" width="100%" />
+<img src="https://raw.githubusercontent.com/adimishra-code/adimishra-code/main/assets/header.svg" width="100%" alt="Aditya Mishra - Full-Stack Developer & AI Systems Engineer" />
 
 <br><br>
 
-<a href="https://portfolio-adiimishraa.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-4F46E5?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+<a href="https://portfolio-adiimishraa.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-161b22?style=for-the-badge&logo=googlechrome&logoColor=38bdf8" alt="Portfolio" /></a>
 &nbsp;
-<a href="https://www.linkedin.com/in/adi-mishraa/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://www.linkedin.com/in/adi-mishraa/"><img src="https://img.shields.io/badge/LinkedIn-161b22?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
 &nbsp;
-<a href="https://github.com/adimishra-code"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+<a href="https://github.com/adimishra-code"><img src="https://img.shields.io/badge/GitHub-161b22?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 &nbsp;
-<a href="mailto:adityamishrav820@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="mailto:adityamishrav820@gmail.com"><img src="https://img.shields.io/badge/Email-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /></a>
 
 <br><br>
 
@@ -18,79 +18,131 @@
 
 ---
 
-### 👨‍💻 About Me
+### ⚡ Snapshot
 
-I am an Information Technology undergraduate at **Gautam Buddha University** and a full-stack developer building robust web applications and autonomous AI agent pipelines. My focus centers on solid system architecture, defensive API design, and deploying resilient backends with real-time capabilities.
-
-- 🎓 **Education**: B.Tech in Information Technology — Gautam Buddha University *(2024 – Present)*
-- 💼 **Experience**: Full Stack Developer Intern — Skypath Global *(2026)*
-- 🎯 **Current Focus**: Multi-tenant AI trust & safety platforms, automated browser extension auditing, and agentic RAG architectures.
+<table width="100%">
+  <tr>
+    <td width="33%" valign="top">
+      <b>🎯 Engineering Focus</b><br>
+      <sub>Full-Stack Web Architectures<br>Autonomous AI Agent Loops<br>Application & Sandbox Security</sub>
+    </td>
+    <td width="33%" valign="top">
+      <b>⚡ Core Stack</b><br>
+      <sub>TypeScript · Python · Fastify<br>FastAPI · React · PostgreSQL<br>LangGraph · Qdrant · Docker</sub>
+    </td>
+    <td width="33%" valign="top">
+      <b>📍 Current Status</b><br>
+      <sub>B.Tech IT @ Gautam Buddha Univ<br>Ex-Intern @ Skypath Global<br><b>Open to SWE / Full-Stack Roles</b></sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 🚀 Featured Systems & Projects
+### 🚀 Featured Systems & Architecture
 
-#### 🛡️ [Extension Guard](https://github.com/adimishra-code/extensionguard)
-[![Live Scanner](https://img.shields.io/badge/Live%20Scanner-online-success?style=flat-square)](https://extensionguard-web.onrender.com)
-[![GitHub](https://img.shields.io/badge/GitHub-extensionguard-181717?style=flat-square&logo=github)](https://github.com/adimishra-code/extensionguard)
-[![Stack](https://img.shields.io/badge/Stack-TypeScript%20%7C%20Fastify%20%7C%20PostgreSQL%20%7C%20Playwright-2563eb?style=flat-square)]()
-
-*Automated 5-stage security audit pipeline for Chromium and Firefox browser extensions.*
-- **Static & Dynamic Analysis**: Extracts AST nodes from content scripts, parses manifest permissions, and runs the unpacked extension inside an isolated Playwright browser context to detect runtime evasion and data exfiltration.
-- **Threat Scoring Engine**: Computes a weighted 0–100 risk score based on dangerous permissions, content-script injection, and unverified outbound network requests.
-
-<br>
-
-#### 🧠 [DocsMind](https://docsmind-beige.vercel.app/)
-[![Live App](https://img.shields.io/badge/Live%20App-online-success?style=flat-square)](https://docsmind-beige.vercel.app/)
-[![Stack](https://img.shields.io/badge/Stack-FastAPI%20%7C%20React%20%7C%20Qdrant%20%7C%20LangGraph-7c3aed?style=flat-square)]()
-
-*Document intelligence engine with hybrid dense-sparse retrieval and multi-step reasoning.*
-- **Hybrid Retrieval**: Pairs Qdrant vector similarity with BM25 lexical search and a cross-encoder reranking pass to eliminate hallucinations across complex technical PDFs.
-- **Agent Reasoning**: Integrates a LangGraph reasoning loop with token-streamed answers and inline source citations.
-
-<br>
-
-#### ⚡ Sentinel
-[![Status](https://img.shields.io/badge/Status-In%20Development-f59e0b?style=flat-square)]()
-[![Stack](https://img.shields.io/badge/Stack-Node.js%20%7C%20Fastify%20%7C%20FastAPI%20%7C%20MongoDB%20%7C%20Gemini-059669?style=flat-square)]()
-
-*Multi-tenant AI Trust & Safety platform with configurable moderation engines.*
-- **Multilingual Moderation**: Real-time content classification for English, Hindi, and Hinglish using specialized prompting strategies.
-- **Enterprise Controls**: Configurable policy rule sets, automated risk scoring, audit trails, and a dedicated queue for human-in-the-loop appeal workflows.
-
-<br>
-
-#### 🚗 [CampusPool](https://campuspool.pages.dev/)
-[![Live Platform](https://img.shields.io/badge/Live%20Platform-online-success?style=flat-square)](https://campuspool.pages.dev/)
-[![Stack](https://img.shields.io/badge/Stack-React%20%7C%20Node.js%20%7C%20MongoDB%20%7C%20Socket.IO-0284c7?style=flat-square)]()
-
-*Peer-to-peer carpooling network designed for university student transit.*
-- **Matching & Safety**: Weighted route-matching algorithm pairing student schedules, backed by institutional email verification and SOS safety mechanisms.
-- **Real-Time Telemetry**: WebSocket-driven instant messaging, ride coordination, and live driver location tracking.
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛡️ Extension Guard</h3>
+      <p><b>5-Stage Browser Extension Security Scanner</b></p>
+      <p>Static AST traversal + sandboxed Playwright execution in Chromium to detect data exfiltration, privilege escalation, and malicious eval.</p>
+      <p>
+        <kbd>TypeScript</kbd> <kbd>Fastify</kbd> <kbd>Playwright</kbd> <kbd>PostgreSQL</kbd> <kbd>Redis</kbd>
+      </p>
+      <p>
+        <a href="https://extensionguard-web.onrender.com"><b>🌐 Live Scanner ↗</b></a> &nbsp;|&nbsp;
+        <a href="https://github.com/adimishra-code/extensionguard"><b>📁 Source Code ↗</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧠 DocsMind</h3>
+      <p><b>Document Intelligence & Hybrid RAG Engine</b></p>
+      <p>Qdrant dense vector search + BM25 keyword retrieval with cross-encoder reranking and LangGraph multi-step reasoning agent.</p>
+      <p>
+        <kbd>FastAPI</kbd> <kbd>Python</kbd> <kbd>LangGraph</kbd> <kbd>Qdrant</kbd> <kbd>React</kbd> <kbd>Redis</kbd>
+      </p>
+      <p>
+        <a href="https://docsmind-beige.vercel.app/"><b>🌐 Live App ↗</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚡ Sentinel</h3>
+      <p><b>Multi-Tenant AI Trust & Safety Platform</b></p>
+      <p>Real-time moderation engine supporting English, Hindi, and Hinglish with configurable policy engines, risk scoring, and audit trails.</p>
+      <p>
+        <kbd>Node.js</kbd> <kbd>Fastify</kbd> <kbd>FastAPI</kbd> <kbd>MongoDB</kbd> <kbd>Gemini API</kbd>
+      </p>
+      <p>
+        <i>⚡ In Active Production Development</i>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🚗 CampusPool</h3>
+      <p><b>Peer-to-Peer Campus Transit Network</b></p>
+      <p>Weighted rider-driver route matching, real-time WebSocket location telemetry, institutional email verification, and SOS safety triggers.</p>
+      <p>
+        <kbd>React</kbd> <kbd>Node.js</kbd> <kbd>MongoDB</kbd> <kbd>Socket.IO</kbd> <kbd>Redux Toolkit</kbd>
+      </p>
+      <p>
+        <a href="https://campuspool.pages.dev/"><b>🌐 Live Platform ↗</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 <details>
-<summary><b>View Additional Projects</b></summary>
+<summary><b>📂 Additional Shipped Projects</b></summary>
 <br>
 
-- **JARVIS / Chitragupta**: Modular desktop AI assistant featuring a dynamic tool registry, 3-layer persistent memory, voice activation, and permission-gated execution via FastAPI and Ollama.
-- **Tally**: Warehouse inventory management system with an append-only transaction ledger and multi-tenant RBAC.
+- **JARVIS / Chitragupta**: Modular desktop AI assistant featuring dynamic tool routing, tiered memory management, voice activation, and permission-gated execution via FastAPI and Ollama.
+- **Tally**: Warehouse inventory management system featuring an append-only transaction ledger, multi-tenant RBAC, and background queue workers.
 - **Client Platforms (Skypath Global)**: Built responsive interfaces and backend integrations for *EduPulse Academy* (learning platform) and *OMBREILLE* (hospitality brand site).
 
 </details>
 
 ---
 
-### 🛠️ Technical Proficiencies
+### 🛠️ Technical Stack & Tooling
 
-| Domain | Technologies |
-| :--- | :--- |
-| **Languages** | `TypeScript` `JavaScript` `Python` `SQL` `C` `C++` |
-| **Backend & APIs** | `Node.js` `Fastify` `Express` `FastAPI` `REST APIs` `WebSockets` |
-| **Databases & Cache** | `PostgreSQL` `MongoDB` `Redis` `Qdrant (Vector DB)` |
-| **AI & Systems** | `LangGraph` `LangChain` `RAG Architectures` `Ollama` `Gemini API` |
-| **Frontend** | `React` `Redux Toolkit` `Tailwind CSS` `Vite` `HTML5 / CSS3` |
-| **DevOps & Tooling** | `Docker` `Playwright` `Git` `GitHub Actions` `Linux` `Postman` |
+<table width="100%">
+  <tr>
+    <td width="20%"><b>Languages</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=ts,js,py,cpp,c&theme=dark" alt="Languages" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Backend & APIs</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,postgres,mongodb,redis&theme=dark" alt="Backend" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>AI & Systems</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/LangGraph-161b22?style=flat-square&logo=python&logoColor=38bdf8" alt="LangGraph" />
+      <img src="https://img.shields.io/badge/LangChain-161b22?style=flat-square&logo=python&logoColor=white" alt="LangChain" />
+      <img src="https://img.shields.io/badge/Hybrid_RAG-161b22?style=flat-square&logo=google&logoColor=34d399" alt="RAG" />
+      <img src="https://img.shields.io/badge/Qdrant-161b22?style=flat-square&logo=qdrant&logoColor=f43f5e" alt="Qdrant" />
+      <img src="https://img.shields.io/badge/Ollama-161b22?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Frontend</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=react,tailwind,redux,vite,html,css&theme=dark" alt="Frontend" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>DevOps & Tools</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=docker,git,github,linux,postman,vscode&theme=dark" alt="DevOps" />
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -105,10 +157,10 @@ I am an Information Technology undergraduate at **Gautam Buddha University** and
 
 ### 📜 Certifications & Verified Training
 
-- **Walmart Global Tech** — Advanced Software Engineering Job Simulation *(Forage)*
-  - Architected relational data models, implemented core Java backend services, and resolved performance bottlenecks.
+- **Walmart Global Tech** — Advanced Software Engineering Job Simulation *(via Forage)*
+  - Implemented core backend services, architected relational data models, and resolved performance bottlenecks in Java.
 - **NxtWave** — Intensive AI Bootcamp Certification *(2026)*
-  - Comprehensive training in neural network fundamentals, prompt engineering, and LLM orchestration.
+  - Comprehensive training in neural network fundamentals, prompt engineering, and LLM agent orchestration.
 - **Nokia & TSSC Noida** — AI/ML Technical Workshop
   - Hands-on practical modules covering predictive modeling and machine learning applications in telecommunications.
 - **IgNITion Techfest, Gautam Buddha University** — Top 25 Finalist, Tech Tank *(2025)* & Hackathon 2.0 Participant *(2026)*

@@ -1,91 +1,106 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240" role="img" aria-label="Aditya Mishra - Full-Stack &amp; AI Systems Engineer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" width="960" height="220" role="img" aria-label="Aditya Mishra - Full-Stack Developer &amp; AI Systems Engineer">
   <defs>
-    <!-- Background Gradients -->
-    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+    <!-- Background Card Gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#161b22"/>
       <stop offset="100%" stop-color="#0d1117"/>
     </linearGradient>
 
-    <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0">
+    <!-- Border Gradient -->
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="40%" stop-color="#30363d"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.7"/>
+    </linearGradient>
+
+    <!-- Name Gradient -->
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#ffffff"/>
       <stop offset="100%" stop-color="#38bdf8"/>
     </linearGradient>
-
-    <linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6"/>
-      <stop offset="50%" stop-color="#30363d"/>
-      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.4"/>
-    </linearGradient>
   </defs>
 
-  <!-- Main Background Container -->
-  <rect x="1" y="1" width="998" height="238" rx="12" fill="url(#cardBg)" stroke="url(#borderGrad)" stroke-width="1.5"/>
+  <!-- Base Canvas -->
+  <rect width="960" height="220" fill="#0d1117"/>
 
-  <!-- Left: Profile Details -->
-  <!-- Status Badge -->
-  <g transform="translate(48, 38)">
-    <rect width="180" height="26" rx="13" fill="#21262d" stroke="#30363d" stroke-width="1"/>
-    <circle cx="14" cy="13" r="4" fill="#3fb950"/>
-    <text x="26" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#7ee787" letter-spacing="0.5">SWE &amp; AI SYSTEMS</text>
+  <!-- Card Surface -->
+  <rect x="1" y="1" width="958" height="218" rx="10" fill="url(#bg)" stroke="url(#borderGrad)" stroke-width="1.2"/>
+
+  <!-- Subtle Corner Crosshairs -->
+  <path d="M 20 28 L 30 28 M 20 28 L 20 38" stroke="#30363d" stroke-width="1.2" fill="none"/>
+  <path d="M 940 28 L 930 28 M 940 28 L 940 38" stroke="#30363d" stroke-width="1.2" fill="none"/>
+  <path d="M 20 192 L 30 192 M 20 192 L 20 182" stroke="#30363d" stroke-width="1.2" fill="none"/>
+  <path d="M 940 192 L 930 192 M 940 192 L 940 182" stroke="#30363d" stroke-width="1.2" fill="none"/>
+
+  <!-- Top Left: Live Status Pill -->
+  <g transform="translate(44, 32)">
+    <rect width="186" height="24" rx="12" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="12" r="4" fill="#3fb950"/>
+    <text x="24" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Mono', Consolas, monospace" font-size="10" font-weight="600" fill="#7ee787" letter-spacing="1">SYSTEMS · AI AGENTS</text>
   </g>
 
-  <!-- Name -->
-  <text x="48" y="108" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="url(#textGrad)" letter-spacing="-0.5">
+  <!-- Main Headline / Name -->
+  <text x="44" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="42" font-weight="800" fill="url(#nameGrad)" letter-spacing="-0.8">
     Aditya Mishra
   </text>
 
-  <!-- Tagline -->
-  <text x="48" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#8b949e">
-    Full-Stack Developer · Autonomous AI Agents · App Security
+  <!-- Subheadline -->
+  <text x="44" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#8b949e">
+    Full-Stack Developer &amp; Systems Engineer &middot; B.Tech IT @ Gautam Buddha Univ
   </text>
 
-  <!-- Metadata Tags -->
-  <g transform="translate(48, 172)">
-    <!-- Location Pill -->
-    <rect x="0" y="0" width="135" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
-    <text x="12" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#c9d1d9">📍 Greater Noida, IN</text>
+  <!-- Left Pills Row -->
+  <g transform="translate(44, 158)">
+    <!-- Pill 1: Location -->
+    <rect x="0" y="0" width="138" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <text x="12" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#c9d1d9">📍 Greater Noida, IN</text>
 
-    <!-- Education Pill -->
-    <rect x="145" y="0" width="170" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
-    <text x="157" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#c9d1d9">🎓 B.Tech IT @ GBU</text>
+    <!-- Pill 2: Work -->
+    <rect x="146" y="0" width="168" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <text x="158" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#c9d1d9">💼 Ex-Intern @ Skypath</text>
+
+    <!-- Pill 3: Status -->
+    <rect x="322" y="0" width="156" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <text x="334" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#38bdf8">⚡ Open for SWE Roles</text>
   </g>
 
-  <!-- Right: Architecture Pipeline Visual -->
-  <g transform="translate(620, 32)">
-    <!-- Container Box -->
-    <rect width="332" height="176" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <!-- Right Side: Mini Cockpit / Architecture Specs Card -->
+  <g transform="translate(564, 26)">
+    <rect width="352" height="168" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
 
-    <!-- Header bar -->
-    <path d="M 0 10 C 0 4.5 4.5 0 10 0 L 322 0 C 327.5 0 332 4.5 332 10 L 332 30 L 0 30 Z" fill="#161b22"/>
-    <line x1="0" y1="30" x2="332" y2="30" stroke="#30363d" stroke-width="1"/>
-    <circle cx="16" cy="15" r="3.5" fill="#f85149"/>
-    <circle cx="30" cy="15" r="3.5" fill="#e3b341"/>
-    <circle cx="44" cy="15" r="3.5" fill="#3fb950"/>
-    <text x="64" y="19" font-family="'SF Mono', Consolas, monospace" font-size="10.5" font-weight="600" fill="#8b949e">PIPELINE ARCHITECTURE</text>
+    <!-- Terminal Header Bar -->
+    <path d="M 0 8 C 0 3.5 3.5 0 8 0 L 344 0 C 348.5 0 352 3.5 352 8 L 352 26 L 0 26 Z" fill="#161b22"/>
+    <line x1="0" y1="26" x2="352" y2="26" stroke="#30363d" stroke-width="1"/>
+    <circle cx="14" cy="13" r="3.5" fill="#f85149"/>
+    <circle cx="27" cy="13" r="3.5" fill="#e3b341"/>
+    <circle cx="40" cy="13" r="3.5" fill="#3fb950"/>
+    <text x="60" y="17" font-family="'SF Mono', Consolas, monospace" font-size="10" font-weight="600" fill="#8b949e" letter-spacing="0.5">ACTIVE ENGINEERING PIPELINES</text>
 
-    <!-- Stage 1: Ingestion -->
-    <g transform="translate(16, 46)">
-      <rect width="138" height="48" rx="6" fill="#161b22" stroke="#38bdf8" stroke-width="1"/>
-      <text x="12" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#ffffff">1. Static AST Audit</text>
-      <text x="12" y="36" font-family="'SF Mono', Consolas, monospace" font-size="9" fill="#8b949e">Manifest &amp; Syntax</text>
+    <!-- Pipeline 1: Extension Guard -->
+    <g transform="translate(12, 38)">
+      <rect width="328" height="36" rx="5" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+      <circle cx="14" cy="18" r="3" fill="#38bdf8"/>
+      <text x="26" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#f0f6fc">Extension Guard</text>
+      <text x="130" y="16" font-family="'SF Mono', Consolas, monospace" font-size="9.5" fill="#38bdf8">[AST + Playwright VM]</text>
+      <text x="26" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9.5" fill="#8b949e">5-stage static &amp; runtime threat scoring (0–100)</text>
     </g>
 
-    <!-- Arrow 1 to 2 -->
-    <path d="M 158 70 L 174 70" stroke="#58a6ff" stroke-width="2"/>
-    <polygon points="178,70 172,66 172,74" fill="#58a6ff"/>
-
-    <!-- Stage 2: Sandbox -->
-    <g transform="translate(178, 46)">
-      <rect width="138" height="48" rx="6" fill="#161b22" stroke="#a371f7" stroke-width="1"/>
-      <text x="12" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#ffffff">2. Sandbox VM</text>
-      <text x="12" y="36" font-family="'SF Mono', Consolas, monospace" font-size="9" fill="#8b949e">Playwright Isolated</text>
+    <!-- Pipeline 2: DocsMind -->
+    <g transform="translate(12, 80)">
+      <rect width="328" height="36" rx="5" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+      <circle cx="14" cy="18" r="3" fill="#a371f7"/>
+      <text x="26" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#f0f6fc">DocsMind</text>
+      <text x="95" y="16" font-family="'SF Mono', Consolas, monospace" font-size="9.5" fill="#a371f7">[Hybrid RAG + LangGraph]</text>
+      <text x="26" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9.5" fill="#8b949e">Dense Qdrant + BM25 lexical + cross-encoder rerank</text>
     </g>
 
-    <!-- Stage 3: Risk Engine -->
-    <g transform="translate(16, 110)">
-      <rect width="300" height="48" rx="6" fill="#161b22" stroke="#3fb950" stroke-width="1"/>
-      <text x="14" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="700" fill="#7ee787">3. Multi-Signal Scoring Engine</text>
-      <text x="14" y="36" font-family="'SF Mono', Consolas, monospace" font-size="9.5" fill="#c9d1d9">Weighted 0–100 Threat Index · Rules &amp; LLM Review</text>
+    <!-- Pipeline 3: Sentinel -->
+    <g transform="translate(12, 122)">
+      <rect width="328" height="36" rx="5" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+      <circle cx="14" cy="18" r="3" fill="#3fb950"/>
+      <text x="26" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#f0f6fc">Sentinel</text>
+      <text x="82" y="16" font-family="'SF Mono', Consolas, monospace" font-size="9.5" fill="#7ee787">[AI Trust &amp; Safety]</text>
+      <text x="26" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9.5" fill="#8b949e">Multi-tenant policy engine &amp; Hinglish moderation</text>
     </g>
   </g>
 </svg>

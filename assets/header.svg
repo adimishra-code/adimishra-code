@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" width="960" height="220" role="img" aria-label="Aditya Mishra - Full-Stack Developer &amp; AI Systems Engineer">
+  <defs>
+    <!-- Background Card Gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="40%" stop-color="#30363d"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.7"/>
+    </linearGradient>
+
+    <!-- Name Gradient -->
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="960" height="220" fill="#0d1117"/>
+
+  <!-- Card Surface -->
+  <rect x="1" y="1" width="958" height="218" rx="10" fill="url(#bg)" stroke="url(#borderGrad)" stroke-width="1.2"/>
+
+  <!-- Subtle Corner Crosshairs -->
+  <path d="M 20 28 L 30 28 M 20 28 L 20 38" stroke="#30363d" stroke-width="1.2" fill="none"/>
+  <path d="M 940 28 L 930 28 M 940 28 L 940 38" stroke="#30363d" stroke-width="1.2" fill="none"/>
+  <path d="M 20 192 L 30 192 M 20 192 L 20 182" stroke="#30363d" stroke-width="1.2" fill="none"/>
+  <path d="M 940 192 L 930 192 M 940 192 L 940 182" stroke="#30363d" stroke-width="1.2" fill="none"/>
+
+  <!-- Top Left: Live Status Pill -->
+  <g transform="translate(44, 32)">
+    <rect width="186" height="24" rx="12" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <circle cx="12" cy="12" r="4" fill="#3fb950"/>
+    <text x="24" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Mono', Consolas, monospace" font-size="10" font-weight="600" fill="#7ee787" letter-spacing="1">SYSTEMS · AI AGENTS</text>
+  </g>
+
+  <!-- Main Headline / Name -->
+  <text x="44" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="42" font-weight="800" fill="url(#nameGrad)" letter-spacing="-0.8">
+    Aditya Mishra
+  </text>
+
+  <!-- Subheadline -->
+  <text x="44" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#8b949e">
+    Full-Stack Developer &amp; Systems Engineer &middot; B.Tech IT @ Gautam Buddha Univ
+  </text>
+
+  <!-- Left Pills Row -->
+  <g transform="translate(44, 158)">
+    <!-- Pill 1: Location -->
+    <rect x="0" y="0" width="138" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <text x="12" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#c9d1d9">📍 Greater Noida, IN</text>
+
+    <!-- Pill 2: Work -->
+    <rect x="146" y="0" width="168" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <text x="158" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#c9d1d9">💼 Ex-Intern @ Skypath</text>
+
+    <!-- Pill 3: Status -->
+    <rect x="322" y="0" width="156" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <text x="334" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#38bdf8">⚡ Open for SWE Roles</text>
+  </g>
+
+  <!-- Right Side: Mini Cockpit / Architecture Specs Card -->
+  <g transform="translate(564, 26)">
+    <rect width="352" height="168" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+    <!-- Terminal Header Bar -->
+    <path d="M 0 8 C 0 3.5 3.5 0 8 0 L 344 0 C 348.5 0 352 3.5 352 8 L 352 26 L 0 26 Z" fill="#161b22"/>
+    <line x1="0" y1="26" x2="352" y2="26" stroke="#30363d" stroke-width="1"/>
+    <circle cx="14" cy="13" r="3.5" fill="#f85149"/>
+    <circle cx="27" cy="13" r="3.5" fill="#e3b341"/>
+    <circle cx="40" cy="13" r="3.5" fill="#3fb950"/>
+    <text x="60" y="17" font-family="'SF Mono', Consolas, monospace" font-size="10" font-weight="600" fill="#8b949e" letter-spacing="0.5">ACTIVE ENGINEERING PIPELINES</text>
+
+    <!-- Pipeline 1: Extension Guard -->
+    <g transform="translate(12, 38)">
+      <rect width="328" height="36" rx="5" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+      <circle cx="14" cy="18" r="3" fill="#38bdf8"/>
+      <text x="26" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#f0f6fc">Extension Guard</text>
+      <text x="130" y="16" font-family="'SF Mono', Consolas, monospace" font-size="9.5" fill="#38bdf8">[AST + Playwright VM]</text>
+      <text x="26" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9.5" fill="#8b949e">5-stage static &amp; runtime threat scoring (0–100)</text>
+    </g>
+
+    <!-- Pipeline 2: DocsMind -->
+    <g transform="translate(12, 80)">
+      <rect width="328" height="36" rx="5" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+      <circle cx="14" cy="18" r="3" fill="#a371f7"/>
+      <text x="26" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#f0f6fc">DocsMind</text>
+      <text x="95" y="16" font-family="'SF Mono', Consolas, monospace" font-size="9.5" fill="#a371f7">[Hybrid RAG + LangGraph]</text>
+      <text x="26" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9.5" fill="#8b949e">Dense Qdrant + BM25 lexical + cross-encoder rerank</text>
+    </g>
+
+    <!-- Pipeline 3: Sentinel -->
+    <g transform="translate(12, 122)">
+      <rect width="328" height="36" rx="5" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+      <circle cx="14" cy="18" r="3" fill="#3fb950"/>
+      <text x="26" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#f0f6fc">Sentinel</text>
+      <text x="82" y="16" font-family="'SF Mono', Consolas, monospace" font-size="9.5" fill="#7ee787">[AI Trust &amp; Safety]</text>
+      <text x="26" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9.5" fill="#8b949e">Multi-tenant policy engine &amp; Hinglish moderation</text>
+    </g>
+  </g>
+</svg>
