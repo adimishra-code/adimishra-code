@@ -1,84 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="500" viewBox="0 0 1920 500" role="img" aria-labelledby="title desc">
-  <title id="title">Aditya Mishra — Full-stack developer and AI systems builder</title>
-  <desc id="desc">A dark, modern developer profile banner with Aditya Mishra's name, engineering focus, and a terminal-inspired code panel.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#111827"/>
-      <stop offset="0.55" stop-color="#0B0E14"/>
-      <stop offset="1" stop-color="#101827"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#91F2C3"/>
-      <stop offset="0.52" stop-color="#71D9FF"/>
-      <stop offset="1" stop-color="#B7A3FF"/>
-    </linearGradient>
-    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#71D9FF" stop-opacity="0.19"/>
-      <stop offset="1" stop-color="#91F2C3" stop-opacity="0"/>
-    </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#8CA4C4" stroke-opacity="0.075" stroke-width="1"/>
-    </pattern>
-    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="55"/>
-    </filter>
-    <clipPath id="panelClip"><rect x="1090" y="82" width="730" height="340" rx="22"/></clipPath>
-  </defs>
-
-  <rect width="1920" height="500" rx="28" fill="url(#bg)"/>
-  <rect width="1920" height="500" rx="28" fill="url(#grid)"/>
-  <ellipse cx="1635" cy="110" rx="360" ry="250" fill="#71D9FF" opacity="0.10" filter="url(#softBlur)"/>
-  <ellipse cx="260" cy="470" rx="420" ry="180" fill="#91F2C3" opacity="0.06" filter="url(#softBlur)"/>
-  <rect x="1.5" y="1.5" width="1917" height="497" rx="27" fill="none" stroke="#344255" stroke-opacity="0.75" stroke-width="2"/>
-
-  <!-- Left / identity -->
-  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Arial, sans-serif">
-    <rect x="86" y="78" width="386" height="42" rx="21" fill="#17232B" stroke="#35534D" stroke-width="1.5"/>
-    <circle cx="111" cy="99" r="6" fill="#91F2C3"/>
-    <text x="132" y="105" fill="#B4F9D8" font-family="'SFMono-Regular', Consolas, monospace" font-size="17" font-weight="700" letter-spacing="2.1">FULL-STACK / AI / SECURITY</text>
-
-    <text x="82" y="232" fill="#F3F6FA" font-size="91" font-weight="800" letter-spacing="-4">Aditya Mishra</text>
-    <rect x="87" y="260" width="110" height="5" rx="2.5" fill="url(#accent)"/>
-    <text x="86" y="315" fill="#B8C3D1" font-size="27" font-weight="500">Building useful software, intelligent systems</text>
-    <text x="86" y="353" fill="#B8C3D1" font-size="27" font-weight="500">and secure-by-design experiences.</text>
-
-    <g transform="translate(86 394)">
-      <rect width="286" height="48" rx="10" fill="#151D28" stroke="#344255"/>
-      <text x="20" y="30" fill="#D5DDE7" font-size="18" font-weight="600">B.Tech IT  <tspan fill="#708198">/</tspan>  GBU</text>
-      <rect x="302" width="235" height="48" rx="10" fill="#151D28" stroke="#344255"/>
-      <text x="322" y="30" fill="#D5DDE7" font-size="18" font-weight="600">Greater Noida, IN</text>
-      <rect x="553" width="270" height="48" rx="10" fill="#17251F" stroke="#3E6857"/>
-      <circle cx="577" cy="24" r="5" fill="#91F2C3"/>
-      <text x="594" y="30" fill="#B4F9D8" font-size="18" font-weight="700">Open to opportunities</text>
-    </g>
-  </g>
-
-  <!-- Right / terminal card -->
-  <g clip-path="url(#panelClip)">
-    <rect x="1090" y="82" width="730" height="340" rx="22" fill="#0A0F16" stroke="#36465A" stroke-width="2"/>
-    <rect x="1090" y="82" width="730" height="58" fill="#151E2A"/>
-    <path d="M1090 140H1820" stroke="#344255" stroke-width="1.5"/>
-    <circle cx="1125" cy="111" r="7" fill="#FF7B72"/>
-    <circle cx="1151" cy="111" r="7" fill="#F2C879"/>
-    <circle cx="1177" cy="111" r="7" fill="#91F2C3"/>
-    <text x="1210" y="118" fill="#AAB8C9" font-family="'SFMono-Regular', Consolas, monospace" font-size="16" font-weight="600" letter-spacing="1.2">~/aditya/build.config.ts</text>
-
-    <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="19">
-      <text x="1135" y="194" fill="#6F8198">01</text>
-      <text x="1180" y="194" fill="#C9D4E2"><tspan fill="#B7A3FF">const</tspan> <tspan fill="#91F2C3">builder</tspan> = {</text>
-
-      <text x="1135" y="239" fill="#6F8198">02</text>
-      <text x="1180" y="239" fill="#C9D4E2">  focus: [</text>
-      <text x="1260" y="278" fill="#91F2C3">"full-stack systems",</text>
-      <text x="1260" y="317" fill="#91F2C3">"AI-powered products",</text>
-      <text x="1260" y="356" fill="#91F2C3">"application security"</text>
-      <text x="1135" y="395" fill="#6F8198">03</text>
-      <text x="1180" y="395" fill="#C9D4E2">  ]</text>
-      <text x="1280" y="395" fill="#B7A3FF">;</text>
-    </g>
-    <path d="M1765 180V205" stroke="#71D9FF" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
-  </g>
-
-  <path d="M1040 68V432" stroke="#344255" stroke-opacity="0.6" stroke-dasharray="4 10"/>
-  <circle cx="1040" cy="250" r="5" fill="#71D9FF"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="300" viewBox="0 0 1600 300" role="img" aria-labelledby="title desc">
+<title id="title">Purple and black futuristic developer banner</title>
+<desc id="desc">An abstract dark developer banner with violet gradients, luminous orbital lines, terminal marks, and a subtle grid.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#080711"/><stop offset=".52" stop-color="#100D1C"/><stop offset="1" stop-color="#090713"/></linearGradient>
+  <radialGradient id="glowA"><stop offset="0" stop-color="#7C3AED" stop-opacity=".40"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glowB"><stop offset="0" stop-color="#C084FC" stop-opacity=".22"/><stop offset="1" stop-color="#C084FC" stop-opacity="0"/></radialGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7C3AED" stop-opacity="0"/><stop offset=".5" stop-color="#C084FC"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#A855F7" stroke-opacity=".10" stroke-width="1"/></pattern>
+  <filter id="blur"><feGaussianBlur stdDeviation="24"/></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<rect width="1600" height="300" rx="26" fill="url(#bg)"/>
+<rect width="1600" height="300" rx="26" fill="url(#grid)"/>
+<ellipse cx="300" cy="50" rx="430" ry="240" fill="url(#glowA)" filter="url(#blur)"/>
+<ellipse cx="1330" cy="270" rx="390" ry="230" fill="url(#glowB)" filter="url(#blur)"/>
+<g fill="none" stroke="#A855F7" stroke-opacity=".24">
+  <path d="M-80 250C170 50 420 50 650 250S1120 430 1680 72" stroke-width="1.4"/>
+  <path d="M-80 276C170 76 420 76 650 276S1120 456 1680 98" stroke-width="1"/>
+  <path d="M-80 224C170 24 420 24 650 224S1120 404 1680 46" stroke-width="1"/>
+  <circle cx="1290" cy="82" r="94" stroke="#C084FC" stroke-opacity=".3"/>
+  <circle cx="1290" cy="82" r="70" stroke="#C084FC" stroke-opacity=".18" stroke-dasharray="4 9"/>
+</g>
+<path d="M80 268H1520" stroke="url(#line)" stroke-width="2"/>
+<path d="M80 268H430" stroke="#C084FC" stroke-width="2" filter="url(#soft)"/>
+<g transform="translate(1110 32)">
+  <rect x="0" y="0" width="390" height="206" rx="18" fill="#100D1C" fill-opacity=".92" stroke="#6D3BB5" stroke-opacity=".72"/>
+  <rect x="1" y="1" width="388" height="34" rx="17" fill="#19122B"/>
+  <circle cx="20" cy="17" r="4" fill="#A855F7"/><circle cx="36" cy="17" r="4" fill="#C084FC"/><circle cx="52" cy="17" r="4" fill="#7C3AED"/>
+  <text x="76" y="21" fill="#858096" font-family="monospace" font-size="11">~/build/ideas</text>
+  <text x="25" y="76" fill="#C084FC" font-family="monospace" font-size="25">&lt; CODE /&gt;</text>
+  <text x="25" y="111" fill="#B8B2C9" font-family="monospace" font-size="12">design(); build(); iterate();</text>
+  <text x="25" y="145" fill="#858096" font-family="monospace" font-size="12">// turning ideas into software</text>
+  <rect x="25" y="164" width="7" height="16" rx="2" fill="#C084FC"/>
+  <path d="M44 172H196" stroke="#6D3BB5" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="344" cy="170" r="17" fill="#7C3AED" fill-opacity=".16" stroke="#A855F7" stroke-opacity=".7"/>
+  <path d="M337 170l5 5 10-11" fill="none" stroke="#C084FC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g fill="#C084FC"><circle cx="1010" cy="70" r="3"/><circle cx="1050" cy="214" r="2"/><circle cx="1530" cy="252" r="3"/><circle cx="980" cy="266" r="2"/><circle cx="710" cy="62" r="2"/></g>
+<g fill="#B8B2C9" fill-opacity=".28" font-family="monospace" font-size="12"><text x="86" y="48">01 / ENGINEERING</text><text x="86" y="70">WEB · AI · SYSTEMS</text><text x="880" y="38">{ }</text><text x="1010" y="248">0101</text></g>
 </svg>

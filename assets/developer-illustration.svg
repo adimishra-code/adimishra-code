@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="430" viewBox="0 0 560 430" role="img" aria-labelledby="title desc">
+<title id="title">Developer terminal and AI systems illustration</title><desc id="desc">A futuristic violet terminal window connected to small abstract nodes, representing full-stack and AI engineering.</desc>
+<defs>
+ <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1A1230"/><stop offset="1" stop-color="#0B0915"/></linearGradient>
+ <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#7C3AED"/><stop offset="1" stop-color="#C084FC"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#A855F7" stop-opacity=".3"/><stop offset="1" stop-color="#A855F7" stop-opacity="0"/></radialGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="8"/></filter>
+</defs>
+<ellipse cx="282" cy="220" rx="250" ry="190" fill="url(#halo)"/>
+<g fill="none" stroke="#A855F7" stroke-opacity=".35" stroke-width="1.5"><path d="M70 95L142 145L70 195M420 90L490 135L420 180M95 325L180 280L240 338M360 330L430 280L490 310"/><circle cx="70" cy="95" r="5" fill="#A855F7"/><circle cx="490" cy="135" r="5" fill="#A855F7"/><circle cx="95" cy="325" r="5" fill="#A855F7"/><circle cx="490" cy="310" r="5" fill="#A855F7"/></g>
+<rect x="82" y="72" width="396" height="280" rx="22" fill="#A855F7" fill-opacity=".16" filter="url(#glow)"/>
+<rect x="82" y="72" width="396" height="280" rx="22" fill="url(#panel)" stroke="url(#stroke)" stroke-width="2"/>
+<path d="M83 112H477" stroke="#493064" stroke-width="1"/>
+<circle cx="108" cy="93" r="5" fill="#A855F7"/><circle cx="126" cy="93" r="5" fill="#C084FC"/><circle cx="144" cy="93" r="5" fill="#7C3AED"/>
+<text x="172" y="97" font-size="12" font-family="monospace" fill="#858096">developer.workspace</text>
+<text x="116" y="158" font-size="19" font-family="monospace" fill="#C084FC">&lt; / &gt;</text>
+<text x="116" y="190" font-size="14" font-family="monospace" fill="#FFFFFF">const idea = build();</text>
+<text x="116" y="220" font-size="14" font-family="monospace" fill="#B8B2C9">await system.create({</text>
+<text x="140" y="248" font-size="13" font-family="monospace" fill="#C084FC">  product: "useful",</text>
+<text x="140" y="274" font-size="13" font-family="monospace" fill="#C084FC">  experience: "clean",</text>
+<text x="140" y="300" font-size="13" font-family="monospace" fill="#C084FC">  intelligence: true</text>
+<text x="116" y="326" font-size="14" font-family="monospace" fill="#B8B2C9">});</text>
+<g transform="translate(392 146)"><circle cx="0" cy="0" r="28" fill="#7C3AED" fill-opacity=".22" stroke="#A855F7"/><path d="M-10 0H10M0-10V10" stroke="#C084FC" stroke-width="2" stroke-linecap="round"/><circle cx="0" cy="0" r="5" fill="#C084FC"/></g>
+<g transform="translate(444 243)"><circle cx="0" cy="0" r="20" fill="#7C3AED" fill-opacity=".22" stroke="#A855F7"/><path d="M-7 0H7M0-7V7" stroke="#C084FC" stroke-width="1.8" stroke-linecap="round"/></g>
+</svg>
