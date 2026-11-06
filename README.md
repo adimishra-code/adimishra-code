@@ -1,167 +1,164 @@
 <div align="center">
+  <img src="./assets/banner.png" width="100%" alt="Aditya Mishra — Full-stack developer building AI systems and secure software" />
 
-<img src="./assets/banner.png" width="100%" alt="Aditya Mishra - Full-Stack Developer & AI Systems Engineer" />
+  <p>
+    <a href="https://portfolio-adiimishraa.vercel.app/">Portfolio</a>
+    &nbsp;·&nbsp;
+    <a href="https://www.linkedin.com/in/adi-mishraa/">LinkedIn</a>
+    &nbsp;·&nbsp;
+    <a href="https://github.com/adimishra-code">GitHub</a>
+    &nbsp;·&nbsp;
+    <a href="mailto:adityamishrav820@gmail.com">Email</a>
+  </p>
 
-<br><br>
-
-<a href="https://portfolio-adiimishraa.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-161b22?style=for-the-badge&logo=googlechrome&logoColor=38bdf8" alt="Portfolio" /></a>
-&nbsp;
-<a href="https://www.linkedin.com/in/adi-mishraa/"><img src="https://img.shields.io/badge/LinkedIn-161b22?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
-&nbsp;
-<a href="https://github.com/adimishra-code"><img src="https://img.shields.io/badge/GitHub-161b22?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-&nbsp;
-<a href="mailto:adityamishrav820@gmail.com"><img src="https://img.shields.io/badge/Email-161b22?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /></a>
-
-<br><br>
-
+  <p>
+    <img src="https://img.shields.io/badge/OPEN_TO-SWE_%26_FULL--STACK_ROLES-15251F?style=flat-square&labelColor=0B0E14&color=91F2C3" alt="Open to software engineering and full-stack roles" />
+    <img src="https://img.shields.io/badge/BASED_IN-INDIA-172536?style=flat-square&labelColor=0B0E14&color=71D9FF" alt="Based in India" />
+  </p>
 </div>
 
 ---
 
-### ⚡ Snapshot
+## `01` &nbsp; About
 
-<table width="100%">
-  <tr>
-    <td width="33%" valign="top">
-      <b>🎯 Engineering Focus</b><br>
-      <sub>Full-Stack Web Architectures<br>Autonomous AI Agent Loops<br>Application & Sandbox Security</sub>
-    </td>
-    <td width="33%" valign="top">
-      <b>⚡ Core Stack</b><br>
-      <sub>TypeScript · Python · Fastify<br>FastAPI · React · PostgreSQL<br>LangGraph · Qdrant · Docker</sub>
-    </td>
-    <td width="33%" valign="top">
-      <b>📍 Current Status</b><br>
-      <sub>B.Tech IT @ Gautam Buddha Univ<br>Ex-Intern @ Skypath Global<br><b>Open to SWE / Full-Stack Roles</b></sub>
-    </td>
-  </tr>
-</table>
+I'm **Aditya Mishra**, a B.Tech Information Technology student at **Gautam Buddha University** and a full-stack developer interested in the engineering behind useful, dependable software.
+
+I enjoy taking products from idea to implementation — shaping the interface, designing APIs, working with data, integrating AI workflows, and thinking through deployment and security. My current work sits at the intersection of **full-stack engineering, AI-powered systems, and application security**.
+
+- **Build:** Full-stack web applications, backend services, and developer-focused tools.
+- **Explore:** AI agents, retrieval systems, LLM applications, and secure execution environments.
+- **Approach:** Practical architecture, readable code, thoughtful UX, and features that solve real problems.
 
 ---
 
-### 🚀 Featured Systems & Architecture
+## `02` &nbsp; Selected Work
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>🛡️ Extension Guard</h3>
-      <p><b>5-Stage Browser Extension Security Scanner</b></p>
-      <p>Static AST traversal + sandboxed Playwright execution in Chromium to detect data exfiltration, privilege escalation, and malicious eval.</p>
-      <p>
-        <kbd>TypeScript</kbd> <kbd>Fastify</kbd> <kbd>Playwright</kbd> <kbd>PostgreSQL</kbd> <kbd>Redis</kbd>
-      </p>
-      <p>
-        <a href="https://extensionguard-web.onrender.com"><b>🌐 Live Scanner ↗</b></a> &nbsp;|&nbsp;
-        <a href="https://github.com/adimishra-code/extensionguard"><b>📁 Source Code ↗</b></a>
-      </p>
+      <h3>01 · Extension Guard</h3>
+      <p><strong>Browser Extension Security Scanner</strong></p>
+      <p>A five-stage scanner combining static AST analysis with sandboxed Chromium execution through Playwright. Designed to identify potential data exfiltration, privilege-escalation paths, and malicious dynamic code.</p>
+      <p><sub><strong>STACK</strong> &nbsp; TypeScript · Fastify · Playwright · PostgreSQL · Redis</sub></p>
+      <p><a href="https://extensionguard-web.onrender.com/"><strong>Live scanner ↗</strong></a> &nbsp;·&nbsp; <a href="https://github.com/adimishra-code/extensionguard"><strong>Source code ↗</strong></a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>🧠 DocsMind</h3>
-      <p><b>Document Intelligence & Hybrid RAG Engine</b></p>
-      <p>Qdrant dense vector search + BM25 keyword retrieval with cross-encoder reranking and LangGraph multi-step reasoning agent.</p>
-      <p>
-        <kbd>FastAPI</kbd> <kbd>Python</kbd> <kbd>LangGraph</kbd> <kbd>Qdrant</kbd> <kbd>React</kbd> <kbd>Redis</kbd>
-      </p>
-      <p>
-        <a href="https://docsmind-beige.vercel.app/"><b>🌐 Live App ↗</b></a>
-      </p>
+      <h3>02 · DocsMind</h3>
+      <p><strong>Document Intelligence &amp; Hybrid RAG</strong></p>
+      <p>A document intelligence platform combining dense vector retrieval with BM25 keyword search, cross-encoder reranking, and LangGraph-based multi-step reasoning.</p>
+      <p><sub><strong>STACK</strong> &nbsp; Python · FastAPI · LangGraph · Qdrant · React · Redis</sub></p>
+      <p><a href="https://docsmind-beige.vercel.app/"><strong>Live application ↗</strong></a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>⚡ Sentinel</h3>
-      <p><b>Multi-Tenant AI Trust & Safety Platform</b></p>
-      <p>Real-time moderation engine supporting English, Hindi, and Hinglish with configurable policy engines, risk scoring, and audit trails.</p>
-      <p>
-        <kbd>Node.js</kbd> <kbd>Fastify</kbd> <kbd>FastAPI</kbd> <kbd>MongoDB</kbd> <kbd>Gemini API</kbd>
-      </p>
-      <p>
-        <i>⚡ In Active Production Development</i>
-      </p>
+      <h3>03 · Sentinel</h3>
+      <p><strong>Multi-tenant AI Trust &amp; Safety Platform</strong></p>
+      <p>A moderation platform for English, Hindi, and Hinglish, with configurable policy evaluation, risk scoring, and audit trails.</p>
+      <p><sub><strong>STACK</strong> &nbsp; Node.js · Fastify · FastAPI · MongoDB · Gemini API</sub></p>
+      <p><img src="https://img.shields.io/badge/STATUS-IN_ACTIVE_DEVELOPMENT-2B2418?style=flat-square&labelColor=0B0E14&color=F2C879" alt="In active development" /></p>
     </td>
     <td width="50%" valign="top">
-      <h3>🚗 CampusPool</h3>
-      <p><b>Peer-to-Peer Campus Transit Network</b></p>
-      <p>Weighted rider-driver route matching, real-time WebSocket location telemetry, institutional email verification, and SOS safety triggers.</p>
-      <p>
-        <kbd>React</kbd> <kbd>Node.js</kbd> <kbd>MongoDB</kbd> <kbd>Socket.IO</kbd> <kbd>Redux Toolkit</kbd>
-      </p>
-      <p>
-        <a href="https://campuspool.pages.dev/"><b>🌐 Live Platform ↗</b></a>
-      </p>
+      <h3>04 · CampusPool</h3>
+      <p><strong>Peer-to-peer Campus Transit Network</strong></p>
+      <p>A peer-to-peer campus ride-sharing platform with weighted rider–driver route matching, real-time location updates over Socket.IO, institutional email verification, and SOS safety triggers.</p>
+      <p><sub><strong>STACK</strong> &nbsp; React · Node.js · MongoDB · Socket.IO · Redux Toolkit</sub></p>
+      <p><a href="https://campuspool.pages.dev/"><strong>Live platform ↗</strong></a></p>
     </td>
   </tr>
 </table>
 
 <details>
-<summary><b>📂 Additional Shipped Projects</b></summary>
-<br>
+  <summary><strong>More projects &amp; collaborative work</strong></summary>
+  <br />
 
-- **JARVIS / Chitragupta**: Modular desktop AI assistant featuring dynamic tool routing, tiered memory management, voice activation, and permission-gated execution via FastAPI and Ollama.
-- **Tally**: Warehouse inventory management system featuring an append-only transaction ledger, multi-tenant RBAC, and background queue workers.
-- **Client Platforms (Skypath Global)**: Built responsive interfaces and backend integrations for *EduPulse Academy* (learning platform) and *OMBREILLE* (hospitality brand site).
+  **JARVIS / Chitragupta** — A modular desktop AI assistant with dynamic tool routing, tiered memory, voice activation, and permission-gated execution using FastAPI and Ollama.
 
+  **Tally** — A warehouse inventory management system built around an append-only transaction ledger, multi-tenant role-based access control, and background queue workers.
+
+  **Client platforms · Skypath Global** — Contributed responsive interfaces and backend integrations for **EduPulse Academy**, an education platform, and **OMBREILLE**, a hospitality brand website.
 </details>
 
 ---
 
-### 🛠️ Technical Stack & Tooling
+## `03` &nbsp; Tech Stack
+
+<p><strong>Languages</strong></p>
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,js,py,cpp,c&theme=dark" alt="TypeScript, JavaScript, Python, C++, and C" />
+</p>
+
+<p><strong>Frontend</strong></p>
+<p>
+  <img src="https://skillicons.dev/icons?i=react,tailwind,redux,vite,html,css&theme=dark" alt="React, Tailwind CSS, Redux, Vite, HTML, and CSS" />
+</p>
+
+<p><strong>Backend, APIs &amp; Data</strong></p>
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,postgres,mongodb,redis&theme=dark" alt="Node.js, Express, FastAPI, PostgreSQL, MongoDB, and Redis" />
+</p>
+
+<p><strong>AI &amp; Retrieval</strong></p>
+<p>
+  <img src="https://img.shields.io/badge/LangGraph-18232D?style=flat-square&logo=python&logoColor=71D9FF" alt="LangGraph" />
+  <img src="https://img.shields.io/badge/LangChain-18232D?style=flat-square&logo=langchain&logoColor=FFFFFF" alt="LangChain" />
+  <img src="https://img.shields.io/badge/Hybrid_RAG-18232D?style=flat-square&logo=google&logoColor=91F2C3" alt="Hybrid RAG" />
+  <img src="https://img.shields.io/badge/Qdrant-18232D?style=flat-square&logo=qdrant&logoColor=FF6B75" alt="Qdrant" />
+  <img src="https://img.shields.io/badge/Ollama-18232D?style=flat-square&logo=ollama&logoColor=FFFFFF" alt="Ollama" />
+</p>
+
+<p><strong>Developer Tools &amp; Infrastructure</strong></p>
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,git,github,linux,postman,vscode&theme=dark" alt="Docker, Git, GitHub, Linux, Postman, and VS Code" />
+</p>
+
+---
+
+## `04` &nbsp; Experience &amp; Education
 
 <table width="100%">
   <tr>
-    <td width="20%"><b>Languages</b></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=ts,js,py,cpp,c&theme=dark" alt="Languages" />
+    <td width="24%" valign="top"><strong>2026</strong></td>
+    <td valign="top">
+      <strong>Full Stack Developer Intern · Skypath Global</strong><br />
+      <sub>Contributed full-stack features and API integrations across client platforms, including EduPulse Academy and OMBREILLE.</sub>
     </td>
   </tr>
   <tr>
-    <td><b>Backend & APIs</b></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,postgres,mongodb,redis&theme=dark" alt="Backend" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>AI & Systems</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/LangGraph-161b22?style=flat-square&logo=python&logoColor=38bdf8" alt="LangGraph" />
-      <img src="https://img.shields.io/badge/LangChain-161b22?style=flat-square&logo=python&logoColor=white" alt="LangChain" />
-      <img src="https://img.shields.io/badge/Hybrid_RAG-161b22?style=flat-square&logo=google&logoColor=34d399" alt="RAG" />
-      <img src="https://img.shields.io/badge/Qdrant-161b22?style=flat-square&logo=qdrant&logoColor=f43f5e" alt="Qdrant" />
-      <img src="https://img.shields.io/badge/Ollama-161b22?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>Frontend</b></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=react,tailwind,redux,vite,html,css&theme=dark" alt="Frontend" />
-    </td>
-  </tr>
-  <tr>
-    <td><b>DevOps & Tools</b></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=docker,git,github,linux,postman,vscode&theme=dark" alt="DevOps" />
+    <td width="24%" valign="top"><strong>2024 – Present</strong></td>
+    <td valign="top">
+      <strong>B.Tech · Information Technology</strong><br />
+      <sub>Gautam Buddha University, Greater Noida</sub>
     </td>
   </tr>
 </table>
 
 ---
 
-### 💼 Experience & Education
+## `05` &nbsp; Certifications &amp; Highlights
 
-- **Full Stack Developer Intern** — Skypath Global *(2026)*
-  - Contributed full-stack features and API integrations across client platforms (EduPulse Academy and OMBREILLE).
-- **B.Tech in Information Technology** — Gautam Buddha University *(2024 – Present)*
-  - Core curriculum: Algorithms, System Design, Databases, Computer Networks, and Application Security.
+- **Walmart Global Tech · Advanced Software Engineering Job Simulation (Forage)** — Backend services, relational data modeling, and performance-focused engineering tasks in Java.
+- **NxtWave · Intensive AI Bootcamp (2026)** — Neural network fundamentals, prompt engineering, and LLM agent orchestration.
+- **Nokia &amp; TSSC Noida · AI/ML Technical Workshop** — Practical exposure to predictive modeling and machine learning applications in telecommunications.
+- **IgNITion Techfest · Gautam Buddha University** — Top 25 finalist in Tech Tank (2025); Hackathon 2.0 participant (2026).
+- **Intra-Institutional AI Hackathon** — Organizing Committee Member.
 
 ---
 
-### 📜 Certifications & Verified Training
+## `06` &nbsp; GitHub Activity
 
-- **Walmart Global Tech** — Advanced Software Engineering Job Simulation *(via Forage)*
-  - Implemented core backend services, architected relational data models, and resolved performance bottlenecks in Java.
-- **NxtWave** — Intensive AI Bootcamp Certification *(2026)*
-  - Comprehensive training in neural network fundamentals, prompt engineering, and LLM agent orchestration.
-- **Nokia & TSSC Noida** — AI/ML Technical Workshop
-  - Hands-on practical modules covering predictive modeling and machine learning applications in telecommunications.
-- **IgNITion Techfest, Gautam Buddha University** — Top 25 Finalist, Tech Tank *(2025)* & Hackathon 2.0 Participant *(2026)*
-- **Intra-Institutional AI Hackathon** — Organizing Committee Member
+<div align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=adimishra-code&show_icons=true&hide_border=true&theme=github_dark&bg_color=0B0E14&title_color=91F2C3&icon_color=71D9FF&text_color=C9D1D9" alt="Aditya's GitHub statistics" />
+  &nbsp;
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adimishra-code&layout=compact&langs_count=8&hide_border=true&theme=github_dark&bg_color=0B0E14&title_color=91F2C3&text_color=C9D1D9" alt="Most used programming languages" />
+</div>
+
+---
+
+<div align="center">
+  <h3>Let's build something meaningful.</h3>
+  <p>Have an interesting engineering problem, project, or opportunity?</p>
+  <a href="mailto:adityamishrav820@gmail.com"><strong>Get in touch ↗</strong></a>
+  <br /><br />
+  <sub>Designed and built with curiosity · Aditya Mishra</sub>
+</div>

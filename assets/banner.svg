@@ -1,106 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" width="960" height="220" role="img" aria-label="Aditya Mishra - Full-Stack Developer &amp; AI Systems Engineer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="500" viewBox="0 0 1920 500" role="img" aria-labelledby="title desc">
+  <title id="title">Aditya Mishra — Full-stack developer and AI systems builder</title>
+  <desc id="desc">A dark, modern developer profile banner with Aditya Mishra's name, engineering focus, and a terminal-inspired code panel.</desc>
   <defs>
-    <!-- Background Card Gradient -->
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#161b22"/>
-      <stop offset="100%" stop-color="#0d1117"/>
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="0.55" stop-color="#0B0E14"/>
+      <stop offset="1" stop-color="#101827"/>
     </linearGradient>
-
-    <!-- Border Gradient -->
-    <linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
-      <stop offset="40%" stop-color="#30363d"/>
-      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.7"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#91F2C3"/>
+      <stop offset="0.52" stop-color="#71D9FF"/>
+      <stop offset="1" stop-color="#B7A3FF"/>
     </linearGradient>
-
-    <!-- Name Gradient -->
-    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#38bdf8"/>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#71D9FF" stop-opacity="0.19"/>
+      <stop offset="1" stop-color="#91F2C3" stop-opacity="0"/>
     </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#8CA4C4" stroke-opacity="0.075" stroke-width="1"/>
+    </pattern>
+    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="55"/>
+    </filter>
+    <clipPath id="panelClip"><rect x="1090" y="82" width="730" height="340" rx="22"/></clipPath>
   </defs>
 
-  <!-- Base Canvas -->
-  <rect width="960" height="220" fill="#0d1117"/>
+  <rect width="1920" height="500" rx="28" fill="url(#bg)"/>
+  <rect width="1920" height="500" rx="28" fill="url(#grid)"/>
+  <ellipse cx="1635" cy="110" rx="360" ry="250" fill="#71D9FF" opacity="0.10" filter="url(#softBlur)"/>
+  <ellipse cx="260" cy="470" rx="420" ry="180" fill="#91F2C3" opacity="0.06" filter="url(#softBlur)"/>
+  <rect x="1.5" y="1.5" width="1917" height="497" rx="27" fill="none" stroke="#344255" stroke-opacity="0.75" stroke-width="2"/>
 
-  <!-- Card Surface -->
-  <rect x="1" y="1" width="958" height="218" rx="10" fill="url(#bg)" stroke="url(#borderGrad)" stroke-width="1.2"/>
+  <!-- Left / identity -->
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Arial, sans-serif">
+    <rect x="86" y="78" width="386" height="42" rx="21" fill="#17232B" stroke="#35534D" stroke-width="1.5"/>
+    <circle cx="111" cy="99" r="6" fill="#91F2C3"/>
+    <text x="132" y="105" fill="#B4F9D8" font-family="'SFMono-Regular', Consolas, monospace" font-size="17" font-weight="700" letter-spacing="2.1">FULL-STACK / AI / SECURITY</text>
 
-  <!-- Subtle Corner Crosshairs -->
-  <path d="M 20 28 L 30 28 M 20 28 L 20 38" stroke="#30363d" stroke-width="1.2" fill="none"/>
-  <path d="M 940 28 L 930 28 M 940 28 L 940 38" stroke="#30363d" stroke-width="1.2" fill="none"/>
-  <path d="M 20 192 L 30 192 M 20 192 L 20 182" stroke="#30363d" stroke-width="1.2" fill="none"/>
-  <path d="M 940 192 L 930 192 M 940 192 L 940 182" stroke="#30363d" stroke-width="1.2" fill="none"/>
+    <text x="82" y="232" fill="#F3F6FA" font-size="91" font-weight="800" letter-spacing="-4">Aditya Mishra</text>
+    <rect x="87" y="260" width="110" height="5" rx="2.5" fill="url(#accent)"/>
+    <text x="86" y="315" fill="#B8C3D1" font-size="27" font-weight="500">Building useful software, intelligent systems</text>
+    <text x="86" y="353" fill="#B8C3D1" font-size="27" font-weight="500">and secure-by-design experiences.</text>
 
-  <!-- Top Left: Live Status Pill -->
-  <g transform="translate(44, 32)">
-    <rect width="186" height="24" rx="12" fill="#21262d" stroke="#30363d" stroke-width="1"/>
-    <circle cx="12" cy="12" r="4" fill="#3fb950"/>
-    <text x="24" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Mono', Consolas, monospace" font-size="10" font-weight="600" fill="#7ee787" letter-spacing="1">SYSTEMS · AI AGENTS</text>
-  </g>
-
-  <!-- Main Headline / Name -->
-  <text x="44" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="42" font-weight="800" fill="url(#nameGrad)" letter-spacing="-0.8">
-    Aditya Mishra
-  </text>
-
-  <!-- Subheadline -->
-  <text x="44" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#8b949e">
-    Full-Stack Developer &amp; Systems Engineer &middot; B.Tech IT @ Gautam Buddha Univ
-  </text>
-
-  <!-- Left Pills Row -->
-  <g transform="translate(44, 158)">
-    <!-- Pill 1: Location -->
-    <rect x="0" y="0" width="138" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
-    <text x="12" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#c9d1d9">📍 Greater Noida, IN</text>
-
-    <!-- Pill 2: Work -->
-    <rect x="146" y="0" width="168" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
-    <text x="158" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#c9d1d9">💼 Ex-Intern @ Skypath</text>
-
-    <!-- Pill 3: Status -->
-    <rect x="322" y="0" width="156" height="26" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
-    <text x="334" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#38bdf8">⚡ Open for SWE Roles</text>
-  </g>
-
-  <!-- Right Side: Mini Cockpit / Architecture Specs Card -->
-  <g transform="translate(564, 26)">
-    <rect width="352" height="168" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
-
-    <!-- Terminal Header Bar -->
-    <path d="M 0 8 C 0 3.5 3.5 0 8 0 L 344 0 C 348.5 0 352 3.5 352 8 L 352 26 L 0 26 Z" fill="#161b22"/>
-    <line x1="0" y1="26" x2="352" y2="26" stroke="#30363d" stroke-width="1"/>
-    <circle cx="14" cy="13" r="3.5" fill="#f85149"/>
-    <circle cx="27" cy="13" r="3.5" fill="#e3b341"/>
-    <circle cx="40" cy="13" r="3.5" fill="#3fb950"/>
-    <text x="60" y="17" font-family="'SF Mono', Consolas, monospace" font-size="10" font-weight="600" fill="#8b949e" letter-spacing="0.5">ACTIVE ENGINEERING PIPELINES</text>
-
-    <!-- Pipeline 1: Extension Guard -->
-    <g transform="translate(12, 38)">
-      <rect width="328" height="36" rx="5" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
-      <circle cx="14" cy="18" r="3" fill="#38bdf8"/>
-      <text x="26" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#f0f6fc">Extension Guard</text>
-      <text x="130" y="16" font-family="'SF Mono', Consolas, monospace" font-size="9.5" fill="#38bdf8">[AST + Playwright VM]</text>
-      <text x="26" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9.5" fill="#8b949e">5-stage static &amp; runtime threat scoring (0–100)</text>
-    </g>
-
-    <!-- Pipeline 2: DocsMind -->
-    <g transform="translate(12, 80)">
-      <rect width="328" height="36" rx="5" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
-      <circle cx="14" cy="18" r="3" fill="#a371f7"/>
-      <text x="26" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#f0f6fc">DocsMind</text>
-      <text x="95" y="16" font-family="'SF Mono', Consolas, monospace" font-size="9.5" fill="#a371f7">[Hybrid RAG + LangGraph]</text>
-      <text x="26" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9.5" fill="#8b949e">Dense Qdrant + BM25 lexical + cross-encoder rerank</text>
-    </g>
-
-    <!-- Pipeline 3: Sentinel -->
-    <g transform="translate(12, 122)">
-      <rect width="328" height="36" rx="5" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
-      <circle cx="14" cy="18" r="3" fill="#3fb950"/>
-      <text x="26" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#f0f6fc">Sentinel</text>
-      <text x="82" y="16" font-family="'SF Mono', Consolas, monospace" font-size="9.5" fill="#7ee787">[AI Trust &amp; Safety]</text>
-      <text x="26" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="9.5" fill="#8b949e">Multi-tenant policy engine &amp; Hinglish moderation</text>
+    <g transform="translate(86 394)">
+      <rect width="286" height="48" rx="10" fill="#151D28" stroke="#344255"/>
+      <text x="20" y="30" fill="#D5DDE7" font-size="18" font-weight="600">B.Tech IT  <tspan fill="#708198">/</tspan>  GBU</text>
+      <rect x="302" width="235" height="48" rx="10" fill="#151D28" stroke="#344255"/>
+      <text x="322" y="30" fill="#D5DDE7" font-size="18" font-weight="600">Greater Noida, IN</text>
+      <rect x="553" width="270" height="48" rx="10" fill="#17251F" stroke="#3E6857"/>
+      <circle cx="577" cy="24" r="5" fill="#91F2C3"/>
+      <text x="594" y="30" fill="#B4F9D8" font-size="18" font-weight="700">Open to opportunities</text>
     </g>
   </g>
+
+  <!-- Right / terminal card -->
+  <g clip-path="url(#panelClip)">
+    <rect x="1090" y="82" width="730" height="340" rx="22" fill="#0A0F16" stroke="#36465A" stroke-width="2"/>
+    <rect x="1090" y="82" width="730" height="58" fill="#151E2A"/>
+    <path d="M1090 140H1820" stroke="#344255" stroke-width="1.5"/>
+    <circle cx="1125" cy="111" r="7" fill="#FF7B72"/>
+    <circle cx="1151" cy="111" r="7" fill="#F2C879"/>
+    <circle cx="1177" cy="111" r="7" fill="#91F2C3"/>
+    <text x="1210" y="118" fill="#AAB8C9" font-family="'SFMono-Regular', Consolas, monospace" font-size="16" font-weight="600" letter-spacing="1.2">~/aditya/build.config.ts</text>
+
+    <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="19">
+      <text x="1135" y="194" fill="#6F8198">01</text>
+      <text x="1180" y="194" fill="#C9D4E2"><tspan fill="#B7A3FF">const</tspan> <tspan fill="#91F2C3">builder</tspan> = {</text>
+
+      <text x="1135" y="239" fill="#6F8198">02</text>
+      <text x="1180" y="239" fill="#C9D4E2">  focus: [</text>
+      <text x="1260" y="278" fill="#91F2C3">"full-stack systems",</text>
+      <text x="1260" y="317" fill="#91F2C3">"AI-powered products",</text>
+      <text x="1260" y="356" fill="#91F2C3">"application security"</text>
+      <text x="1135" y="395" fill="#6F8198">03</text>
+      <text x="1180" y="395" fill="#C9D4E2">  ]</text>
+      <text x="1280" y="395" fill="#B7A3FF">;</text>
+    </g>
+    <path d="M1765 180V205" stroke="#71D9FF" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+  </g>
+
+  <path d="M1040 68V432" stroke="#344255" stroke-opacity="0.6" stroke-dasharray="4 10"/>
+  <circle cx="1040" cy="250" r="5" fill="#71D9FF"/>
 </svg>
