@@ -52,15 +52,13 @@
 
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=adimishra-code&show_icons=true&bg_color=151126&title_color=C084FC&text_color=B8B2C9&icon_color=A855F7&border_color=30234A&ring_color=A855F7&custom_title=GitHub%20Stats" alt="GitHub stats" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adimishra-code&layout=compact&bg_color=151126&title_color=C084FC&text_color=B8B2C9&border_color=30234A&custom_title=Most%20Used%20Languages" alt="Most used languages" height="165" />
+<img src="https://github-stats-extended.vercel.app/api?username=adimishra-code&show_icons=true&bg_color=151126&title_color=C084FC&text_color=B8B2C9&icon_color=A855F7&border_color=30234A&ring_color=A855F7&custom_title=GitHub%20Stats" alt="GitHub stats" height="165" />
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=adimishra-code&layout=compact&bg_color=151126&title_color=C084FC&text_color=B8B2C9&border_color=30234A&custom_title=Most%20Used%20Languages" alt="Most used languages" height="165" />
 
 <img src="https://streak-stats.demolab.com?user=adimishra-code&background=151126&border=30234A&stroke=30234A&ring=A855F7&fire=C084FC&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=C084FC&sideLabels=B8B2C9&dates=858096" alt="GitHub streak" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=adimishra-code&bg_color=151126&color=C084FC&line=A855F7&point=FFFFFF&area=true&area_color=7C3AED&hide_border=true&radius=16&title_color=C084FC" alt="GitHub contribution activity graph" width="100%" />
-
 <img src="https://img.shields.io/github/followers/adimishra-code?label=Followers&style=flat-square&labelColor=7C3AED&color=151126&logo=github&logoColor=white" alt="GitHub followers" />
-<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fadimishra-code&query=%24.public_repos&label=Public%20repos&style=flat-square&labelColor=7C3AED&color=151126&logo=github&logoColor=white" alt="Public repositories" />
+<img src="https://img.shields.io/badge/Public%20repos-11-151126?style=flat-square&labelColor=7C3AED&color=151126&logo=github&logoColor=white" alt="Public repositories" />
 
 <br>
 
