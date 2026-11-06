@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/adimishra-code/adimishra-code/main/assets/header.svg" width="100%" alt="Aditya Mishra - Full-Stack Developer & AI Systems Engineer" />
+<img src="./assets/banner.png" width="100%" alt="Aditya Mishra - Full-Stack Developer & AI Systems Engineer" />
 
 <br><br>
 
